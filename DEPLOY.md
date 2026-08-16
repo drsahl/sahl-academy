@@ -90,3 +90,4 @@ All files are in:
 ```
 
 Copy this entire folder to deploy.
+# Deployed to Cloudflare Pages

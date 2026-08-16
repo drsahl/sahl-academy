@@ -279,27 +279,6 @@ a:hover {
   overflow: hidden;
 }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse 60% 50% at 20% 40%, rgba(194,122,58,0.08) 0%, transparent 60%),
-    radial-gradient(ellipse 40% 40% at 80% 20%, rgba(184,74,63,0.05) 0%, transparent 50%);
-  pointer-events: none;
-}
-
-.hero::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 80px;
-  background: linear-gradient(to top, var(--cream), transparent);
-  pointer-events: none;
-}
-
 .hero-content {
   position: relative;
   z-index: 1;
@@ -358,7 +337,6 @@ a:hover {
   background: var(--amber-dark);
   color: var(--white);
   text-decoration: none;
-  transform: translateY(-1px);
 }
 
 .btn-secondary {
@@ -444,8 +422,6 @@ a:hover {
 
 .card:hover {
   border-color: var(--amber);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(15,17,21,0.06);
 }
 
 .card h3 {
@@ -462,12 +438,7 @@ a:hover {
   margin-bottom: 0;
 }
 
-.card-icon {
-  font-size: 1.6rem;
-  margin-bottom: var(--space-3);
-  display: inline-block;
-  line-height: 1;
-}
+.card-icon { display: none; }
 
 a.card {
   display: block;
@@ -622,16 +593,6 @@ a.card:hover {
   position: relative;
 }
 
-.site-footer::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--amber), var(--coral));
-}
-
 .site-footer a {
   color: rgba(255,255,255,0.65);
   transition: color 0.2s ease;
@@ -694,13 +655,6 @@ a.card:hover {
   color: var(--cream);
   position: relative;
   overflow: hidden;
-}
-
-.page-hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse 60% 45% at 25% 50%, rgba(194,122,58,0.08) 0%, transparent 60%);
 }
 
 .page-hero h1 {

@@ -1,0 +1,24 @@
+{
+  "name": "sahl.ie",
+  "version": "1.0.0",
+  "description": "Sahl Health Ed - Immigrant rights and health advisory",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drsahl/sahl-academy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/drsahl/sahl-academy/issues"
+  },
+  "homepage": "https://github.com/drsahl/sahl-academy#readme",
+  "devDependencies": {
+    "vite": "^8.2.1"
+  }
+}

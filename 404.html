@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found | Sahl Health Ed</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23c27a3a'/><text x='50' y='62' font-size='45' text-anchor='middle' fill='white' font-family='Georgia'>S</text></svg>">
+</head>
+<body>
+
+  <div class="emergency-banner">
+    <div class="container" data-i18n="emergency">
+      🚨 In immediate danger? Call <a href="tel:112">112</a> or <a href="tel:999">999</a> · Gardaí, Ambulance, Fire
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><span class="brand-name">Sahl Health Ed</span><span class="brand-domain">education.sahl.ie</span></a>
+      <button class="mobile-menu-btn" onclick="document.querySelector('.main-nav').classList.toggle('open')" aria-label="Toggle menu">☰</button>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="rights.html" data-i18n="nav.rights">Your Rights</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+          <li><a href="health.html" data-i18n="nav.health">Health</a></li>
+          <li><a href="legal.html" data-i18n="nav.legal">Legal Aid</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section" style="min-height: 60vh; display: flex; align-items: center;">
+    <div class="container" style="text-align: center;">
+      <h1 style="font-size: 6rem; color: var(--color-accent); margin-bottom: 0;" data-i18n="error.heading">404</h1>
+      <h2 style="margin-bottom: var(--space-md);" data-i18n="error.text">Page Not Found</h2>
+      <p style="color: var(--color-text-secondary); margin-bottom: var(--space-md);" data-i18n="error.desc">
+        The page you're looking for doesn't exist or has been moved.
+      </p>
+      <a href="index.html" class="btn btn-primary" data-i18n="error.cta">Go to Homepage</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="disclaimer-box">
+        <strong>Legal Disclaimer</strong>
+        The information on this website is provided for general educational purposes only and does not constitute legal, medical, or professional advice. While every effort is made to ensure accuracy, laws and policies change frequently. Always consult a qualified solicitor, GP, or relevant professional for advice tailored to your specific situation. Sahl Health, its authors, and contributors accept no liability for any loss or damage arising from reliance on the information contained herein. This site is independent and not affiliated with any government body.
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.disclaimer">SAHL.ie — Information only. Not legal or medical advice. Consult a qualified professional for your situation.</p>
+        <p style="margin-top: var(--space-xs); opacity: 0.6;" data-i18n="footer.updated">Last updated: August 2026</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+</body>
+</html>

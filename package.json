@@ -1,7 +1,7 @@
 {
   "name": "sahl.ie",
   "version": "1.0.0",
-  "description": "Sahl Health Ed - Immigrant rights and health advisory",
+  "description": "The Rights Guide - Immigrant rights and health advisory",
   "main": "index.js",
   "scripts": {
     "dev": "vite"

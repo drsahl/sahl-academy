@@ -1,4 +1,4 @@
-# SAHL.ie — Deployment Guide
+# The Rights Guide — Deployment Guide
 
 ## ✅ Current Status: LIVE on GitHub Pages
 

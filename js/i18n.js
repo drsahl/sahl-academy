@@ -30,6 +30,7 @@
         const res = await fetch(`js/translations/${this.currentLang}.json`);
         this.translations = await res.json();
         this.apply();
+        this.updateDirection(this.currentLang);
         this.buildSelector();
       } catch (e) {
         console.error('i18n load failed:', e);

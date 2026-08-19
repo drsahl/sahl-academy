@@ -22,25 +22,26 @@
     <button class="mobile-menu-btn" onclick="document.querySelector('.main-nav').classList.toggle('open')" aria-label="Toggle menu"><span></span><span></span></button>
     <nav>
       <ul class="main-nav">
-        <li><a href="index.html" class="active" data-i18n="nav.home">Home</a></li>
-        <li><a href="rights.html" data-i18n="nav.rights">Your Rights</a></li>
-        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
-        <li><a href="health.html" data-i18n="nav.health">Health</a></li>
-        <li><a href="legal.html" data-i18n="nav.legal">Legal Aid</a></li>
+        <li><a href="#top" data-i18n="nav.home">Home</a></li>
+        <li><a href="#rights" data-i18n="nav.rights">Your Rights</a></li>
+        <li><a href="#health" data-i18n="nav.health">Health</a></li>
+        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="#legal" data-i18n="nav.legal">Legal Aid</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
 <main>
-  <section class="hero">
+  <section class="hero" id="top">
     <div class="reading">
       <h1 data-i18n="index.hero_title">Know Your Rights.<br>Find Your Support.</h1>
       <p class="lede" data-i18n="index.hero_subtitle">Clear, honest information for immigrants, refugees, and international protection applicants living in Ireland. Healthcare, housing, legal aid, employment — your rights, explained.</p>
       <div class="ctas">
-        <a class="cta-link" href="rights.html"><span data-i18n="index.cta_rights">Know Your Rights</span> <span class="arr">→</span></a>
-        <a class="cta-link" href="services.html"><span data-i18n="index.cta_services">Find Services</span> <span class="arr">→</span></a>
+        <a class="cta-link" href="#rights"><span data-i18n="index.cta_rights">Know Your Rights</span> <span class="arr">→</span></a>
+        <a class="cta-link" href="#services"><span data-i18n="index.cta_services">Find Services</span> <span class="arr">→</span></a>
       </div>
+      <p class="dateline" data-i18n="footer.updated">Last updated: August 2026</p>
     </div>
   </section>
 
@@ -48,22 +49,22 @@
     <div class="reading">
       <p class="kicker"><em>01</em><span data-i18n="index.quick_access_title">What Do You Need Help With?</span></p>
       <div class="rows">
-        <a class="row" href="rights.html">
+        <a class="row" href="#rights">
           <span class="idx">01</span>
           <span><span class="rt" data-i18n="index.card_rights_title">Your Rights in IPAS</span><span class="rd" data-i18n="index.card_rights_desc">What the law says about your accommodation, the standards you are entitled to, and when a doctor's letter is — and isn't — required.</span></span>
           <span class="arr">→</span>
         </a>
-        <a class="row" href="health.html">
+        <a class="row" href="#health">
           <span class="idx">02</span>
           <span><span class="rt" data-i18n="index.card_health_title">Healthcare Access</span><span class="rd" data-i18n="index.card_health_desc">How to register with a GP, get a medical card, access mental health services, and understand your healthcare rights.</span></span>
           <span class="arr">→</span>
         </a>
-        <a class="row" href="services.html">
+        <a class="row" href="#services">
           <span class="idx">03</span>
           <span><span class="rt" data-i18n="index.card_emergency_title">Emergency &amp; Support</span><span class="rd" data-i18n="index.card_emergency_desc">Suicide helplines, domestic violence support, victim services, and organisations that will stand with you.</span></span>
           <span class="arr">→</span>
         </a>
-        <a class="row" href="legal.html">
+        <a class="row" href="#legal">
           <span class="idx">04</span>
           <span><span class="rt" data-i18n="index.card_legal_title">Legal Aid &amp; Advocacy</span><span class="rd" data-i18n="index.card_legal_desc">Free legal help, how to complain about your accommodation, and who to contact when something feels wrong.</span></span>
           <span class="arr">→</span>
@@ -100,6 +101,13 @@
     </div>
   </section>
 
+  <section class="page-head" id="rights">
+    <div class="reading">
+      <p class="kicker"><em>01</em><span data-i18n="nav.rights">Your Rights</span></p>
+      <h2 class="art-title" data-i18n="rights.page_title">Your Rights in Ireland</h2>
+      <p class="lede" data-i18n="rights.page_subtitle">Clear, factual information about what you are legally entitled to as an international protection applicant — and what nobody has the right to demand from you.</p>
+    </div>
+  </section>
   <section class="blk">
     <div class="reading">
       <h2 class="blk-title" data-i18n="index.dignity_title">You Are Entitled To Dignity</h2>
@@ -107,7 +115,760 @@
       <div class="note accent">
         <p class="note-title" data-i18n="index.fan_box_title">Did a hostel or centre ask you for a doctor's letter for something basic?</p>
         <p data-i18n="index.fan_box_text">There is <strong>no legal requirement</strong> in the Reception Conditions Regulations for a GP letter to approve basic items like a fan, a room change for comfort, or standard living equipment. The only formal medical letter protocol applies to <strong>transfer requests between centres</strong> — and even then, it requires a consultant's letter, not a GP note.</p>
-        <a href="rights.html#medical-letters" class="btn-line" data-i18n="index.fan_box_cta">Read the Full Guide →</a>
+        <a href="#medical-letters" class="btn-line" data-i18n="index.fan_box_cta">Read the Full Guide →</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="rights.law_title">The Law That Protects You</h2>
+      <p class="body" data-i18n="rights.law_lead">Ireland's obligations to people seeking international protection come from the <strong>European Communities (Reception Conditions) Regulations 2018</strong> (S.I. No. 230/2018). This law implements the EU Reception Conditions Directive and sets minimum standards for accommodation, healthcare, food, and living conditions.</p>
+      <div class="note">
+        <p class="note-title" data-i18n="rights.law_key_title">Key Legal Principle</p>
+        <p data-i18n="rights.law_key_text"><strong>Regulation 4(1):</strong> You are entitled to material reception conditions (accommodation, meals, money) "whereby they do not have sufficient means to attain an <strong>adequate standard of living</strong>." The State must ensure your accommodation guarantees "a <strong>dignified standard of living</strong>" and "<strong>adequate living space</strong>."</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk" id="medical-letters">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="rights.medical_title">Medical Letters: What Is — and Isn't — Required</h2>
+      <div class="note accent">
+        <p class="note-title" data-i18n="rights.medical_warning_title">Important Truth</p>
+        <p data-i18n="rights.medical_warning_text">There is <strong>NO legal or regulatory requirement</strong> for a GP letter to approve basic amenities like an electric fan, a comfortable room temperature, or standard living equipment. If a hostel or centre demands a doctor's letter for something basic, they are enforcing an <strong>internal policy, not a law</strong>.</p>
+      </div>
+      <h3 class="blk-sub" data-i18n="rights.protocol_title">The ONLY Official Medical Letter Protocol</h3>
+      <p class="body" data-i18n="rights.protocol_intro">IPAS has one formal protocol involving medical letters: the <strong>Protocol for Medical Transfer Requests</strong>, introduced in January 2024. This applies <strong>only</strong> to:</p>
+      <ul class="tick" data-i18n="rights.protocol_list">
+        <li>Requests to <strong>move from one accommodation centre to another</strong></li>
+        <li>Where the move is <strong>essential for health reasons</strong></li>
+        <li>Requires a letter from a <strong>hospital consultant</strong> (not a GP)</li>
+        <li>The letter must state the move is <strong>essential</strong>, not just preferable</li>
+        <li>IPAS then reviews this with an Independent Medical Referee</li>
+      </ul>
+      <p class="body" style="margin-top:1rem" data-i18n="rights.protocol_note">Even for transfers, many requests are refused unless there is a <strong>significant medical vulnerability</strong> or safety concern.</p>
+
+      <h3 class="blk-sub" data-i18n="rights.table_title">Medical Letters: Quick Reference</h3>
+      <div class="register-wrap">
+        <table class="register">
+          <thead>
+            <tr>
+              <th data-i18n="rights.table_situation">Situation</th>
+              <th data-i18n="rights.table_required">Letter Required?</th>
+              <th data-i18n="rights.table_law">What the Law Says</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-i18n="rights.table_fan">Requesting a fan for your room</td>
+              <td data-i18n="rights.table_fan_req"><strong>No</strong></td>
+              <td data-i18n="rights.table_fan_law">Basic living amenity. No statutory requirement.</td>
+            </tr>
+            <tr>
+              <td data-i18n="rights.table_room">Requesting a room change within centre</td>
+              <td data-i18n="rights.table_room_req"><strong>No</strong> (in most cases)</td>
+              <td data-i18n="rights.table_room_law">Centre manager discretion; not a medical matter.</td>
+            </tr>
+            <tr>
+              <td data-i18n="rights.table_transfer">Requesting transfer to another centre for health</td>
+              <td data-i18n="rights.table_transfer_req"><strong>Yes</strong> — from a hospital consultant</td>
+              <td data-i18n="rights.table_transfer_law">Protocol for Medical Transfer Requests (Jan 2024)</td>
+            </tr>
+            <tr>
+              <td data-i18n="rights.table_work">Requesting transfer for work/family</td>
+              <td data-i18n="rights.table_work_req"><strong>No</strong> (but likely refused)</td>
+              <td data-i18n="rights.table_work_law">IPAS policy: transfers only for "exceptional circumstances"</td>
+            </tr>
+            <tr>
+              <td data-i18n="rights.table_healthcare">Accessing healthcare / GP registration</td>
+              <td data-i18n="rights.table_healthcare_req"><strong>No</strong></td>
+              <td data-i18n="rights.table_healthcare_law">You have a legal right to healthcare under Reg. 18.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="rights.accommodation_title">What "Suitable Accommodation" Means</h2>
+      <p class="body lede-in" data-i18n="rights.accommodation_intro">Since January 2024, <strong>HIQA</strong> (Health Information and Quality Authority) independently inspects permanent IPAS centres against the legally binding <strong>National Standards for Accommodation</strong>. These standards cover:</p>
+      <div class="grid2">
+        <div class="cell">
+          <h3 data-i18n="rights.acc_space_title">Living Space</h3>
+          <p data-i18n="rights.acc_space_desc">Adequate room size, privacy, ventilation, and temperature control. Rooms should be safe and habitable.</p>
+        </div>
+        <div class="cell">
+          <h3 data-i18n="rights.acc_food_title">Food &amp; Facilities</h3>
+          <p data-i18n="rights.acc_food_desc">Nutritious meals or self-catering facilities. Access to clean drinking water and food storage.</p>
+        </div>
+        <div class="cell">
+          <h3 data-i18n="rights.acc_safety_title">Safety &amp; Safeguarding</h3>
+          <p data-i18n="rights.acc_safety_desc">Fire safety, protection from abuse, and procedures to keep vulnerable people safe.</p>
+        </div>
+        <div class="cell">
+          <h3 data-i18n="rights.acc_needs_title">Special Needs</h3>
+          <p data-i18n="rights.acc_needs_desc">Assessment and response to disabilities, mental health needs, pregnancy, and family circumstances.</p>
+        </div>
+      </div>
+
+      <div class="quote">
+        <p class="q-title" data-i18n="rights.ombudsman_quote_title">What the Ombudsman Has Said</p>
+        <p data-i18n="rights.ombudsman_quote">The Office of the Ombudsman has recommended that protection applicants should have own-door accommodation with adequate living space and access to their own cooking facilities. While this ideal is not yet fully realised, it is the official benchmark against which complaints are judged.</p>
+      </div>
+
+      <div class="note accent">
+        <p class="note-title" data-i18n="rights.emergency_warning_title">Emergency vs. Permanent Accommodation</p>
+        <p data-i18n="rights.emergency_warning_text">As of early 2026, IPAS operates <strong>312 properties</strong> across Ireland, but only approximately <strong>49 are permanent centres</strong>. The remainder are emergency or pre-reception facilities. <strong>HIQA only inspects permanent centres.</strong> If you are in emergency accommodation, your remedy is through the complaints process and the Ombudsman — not HIQA inspection. This distinction is critical.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="rights.complain_title">Your Right to Complain</h2>
+      <p class="body lede-in" data-i18n="rights.complain_intro">You have a legal right to make a complaint without fear of retaliation. The process is:</p>
+      <div class="steps">
+        <div class="step">
+          <span class="idx">01</span>
+          <div>
+            <h3 data-i18n="rights.complain_1_title">Talk to your Centre Manager</h3>
+            <p data-i18n="rights.complain_1_text">Try to resolve the issue informally first. If that fails, make a formal written complaint. They must respond within <strong>14 days</strong>.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="idx">02</span>
+          <div>
+            <h3 data-i18n="rights.complain_2_title">Escalate to IPAS</h3>
+            <p data-i18n="rights.complain_2_text">Email <a href="mailto:ipasinbox@justice.ie">ipasinbox@justice.ie</a> with your name, TRC number, and full details of your complaint.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="idx">03</span>
+          <div>
+            <h3 data-i18n="rights.complain_3_title">Contact the Ombudsman</h3>
+            <p data-i18n="rights.complain_3_text">If IPAS does not resolve your complaint, you can go to the <a href="https://www.ombudsman.ie/en/" target="_blank">Office of the Ombudsman</a> online, by post, or by phone at <strong>01 639 5600</strong>. You must do this within 12 months.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="idx">04</span>
+          <div>
+            <h3 data-i18n="rights.complain_4_title">Ombudsman for Children</h3>
+            <p data-i18n="rights.complain_4_text">If your complaint relates to a child, contact the <a href="https://www.oco.ie/" target="_blank">Ombudsman for Children's Office</a> instead.</p>
+          </div>
+        </div>
+      </div>
+      <div class="note">
+        <p class="note-title" data-i18n="rights.retaliation_title">Retaliation Is Not Allowed</p>
+        <p data-i18n="rights.retaliation_text">Your entitlement to accommodation <strong>cannot be reduced or withdrawn</strong> simply because you made a complaint. If this happens, contact the Ombudsman immediately and document everything.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="rights.supervision_title">Who Supervises Your Centre?</h2>
+      <div class="register-wrap">
+        <table class="register">
+          <thead>
+            <tr>
+              <th data-i18n="rights.super_org">Organisation</th>
+              <th data-i18n="rights.super_role">Role</th>
+              <th data-i18n="rights.super_contact">Contact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-i18n="rights.super_ipas">IPAS</td>
+              <td data-i18n="rights.super_ipas_role">Runs the accommodation system; contracts private operators</td>
+              <td data-i18n="rights.super_ipas_contact">ipasinbox@justice.ie / 01 418 3200</td>
+            </tr>
+            <tr>
+              <td data-i18n="rights.super_dcedy">DCEDIY</td>
+              <td data-i18n="rights.super_dcedy_role">Government department that oversees IPAS</td>
+              <td data-i18n="rights.super_dcedy_contact">Department of Children, Equality, Disability, Integration and Youth</td>
+            </tr>
+            <tr>
+              <td data-i18n="rights.super_hiqa">HIQA</td>
+              <td data-i18n="rights.super_hiqa_role">Independent inspector of permanent centres since Jan 2024</td>
+              <td data-i18n="rights.super_hiqa_contact">hiqa.ie — publishes inspection reports</td>
+            </tr>
+            <tr>
+              <td data-i18n="rights.super_ombuds">Ombudsman</td>
+              <td data-i18n="rights.super_ombuds_role">Investigates complaints about accommodation &amp; services</td>
+              <td data-i18n="rights.super_ombuds_contact">ombudsman.ie / 01 639 5600</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="rights.allowances_title">What You Receive Weekly</h2>
+      <p class="body lede-in" data-i18n="rights.allowances_intro">As an international protection applicant in Direct Provision, you are entitled to:</p>
+      <ul class="tick">
+        <li data-i18n="rights.allow_adult"><strong>Daily Expenses Allowance:</strong> €38.80 per week for adults</li>
+        <li data-i18n="rights.allow_child"><strong>Child allowance:</strong> €29.80 per week per child</li>
+        <li data-i18n="rights.allow_child_benefit"><strong>Child Benefit:</strong> If you have children, you may also be entitled to Irish Child Benefit</li>
+      </ul>
+      <p class="body" style="margin-top:1.2rem" data-i18n="rights.allow_note">Note: If you take up paid employment, your Daily Expenses Allowance may be reduced proportionally. As of late 2025, the government proposed requiring contributions toward accommodation costs from those earning above certain thresholds. Check <a href="https://www.gov.ie" target="_blank">gov.ie</a> for current rules.</p>
+
+      <div class="grid2" style="margin-top:2.6rem">
+        <div class="cell">
+          <h3 data-i18n="rights.interpreter_title">Your Right to an Interpreter</h3>
+          <p data-i18n="rights.interpreter_text">You have a legal right to interpretation in your asylum interviews with the International Protection Office (IPO), in medical settings, and in legal proceedings. If you are not offered an interpreter, ask for one. Do not let anyone pressure you to proceed without adequate interpretation.</p>
+        </div>
+        <div class="cell">
+          <h3 data-i18n="rights.travel_title">Travel Restrictions</h3>
+          <p data-i18n="rights.travel_text">Protection applicants generally <strong>cannot leave Ireland</strong> without permission while their application is being processed. If you leave without permission, your application may be deemed withdrawn. If you need to travel for an emergency (e.g., family death, serious illness), contact the International Protection Office <strong>before</strong> making any travel arrangements.</p>
+        </div>
+      </div>
+
+      <div class="note">
+        <p class="note-title" data-i18n="rights.tip_title">Tip: Document Everything</p>
+        <p data-i18n="rights.tip_text">If you are being asked for unreasonable documentation (like a GP letter for a fan), ask the staff member to <strong>show you the written policy or regulation</strong> that requires it. If they cannot, that tells you it is not a legal requirement. Keep copies of all letters, emails, and notes of conversations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-head" id="health">
+    <div class="reading">
+      <p class="kicker"><em>03</em><span data-i18n="nav.health">Health</span></p>
+      <h2 class="art-title" data-i18n="health.page_title">Your Health, Your Right</h2>
+      <p class="lede" data-i18n="health.page_subtitle">Everyone in Ireland's international protection system has the right to healthcare — including free GP visits, hospital care, and prescription medicines.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="health.rights_title">Your Healthcare Rights</h2>
+      <p class="body lede-in" data-i18n="health.rights_lead">Under <strong>Regulation 18 of the Reception Conditions Regulations 2018</strong>, you have the right to:</p>
+      <ul class="tick" data-i18n="health.rights_list">
+        <li>Emergency healthcare</li>
+        <li>Treatment for serious illnesses</li>
+        <li>Mental health care assessed as necessary</li>
+        <li>Other healthcare to maintain your health</li>
+      </ul>
+      <div class="note">
+        <p class="note-title" data-i18n="health.prescription_title">Good News: Prescriptions Are Free</p>
+        <p data-i18n="health.prescription_text">If you live in Direct Provision and have a medical card, you <strong>do not pay prescription charges</strong>. Normally medical card holders pay a small charge per item, but this is waived for IPAS residents.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="health.access_title">How to Access Healthcare</h2>
+      <div class="steps">
+        <div class="step">
+          <span class="idx">01</span>
+          <div>
+            <h3 data-i18n="health.access_1_title">Get a Medical Card</h3>
+            <p data-i18n="health.access_1_text">Apply through the <strong>HSE</strong>. If you live in Direct Provision, you are entitled to a medical card. Ask your centre manager or GP for help with the application. You can also apply online at <a href="https://www2.hse.ie/services/medical-cards/" target="_blank">hse.ie</a>.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="idx">02</span>
+          <div>
+            <h3 data-i18n="health.access_2_title">Register with a GP</h3>
+            <p data-i18n="health.access_2_text">Most IPAS centres have a GP who visits regularly, or residents are assigned to a local GP practice. If GP lists are full, the HSE will arrange access to a GP with availability in your area. This is free with your medical card.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="idx">03</span>
+          <div>
+            <h3 data-i18n="health.access_3_title">Hospital Care</h3>
+            <p data-i18n="health.access_3_text">You are entitled to free care in <strong>public hospitals</strong>. If you need to go to hospital, your GP will refer you. In an emergency, go to A&amp;E or call 112/999.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="idx">04</span>
+          <div>
+            <h3 data-i18n="health.access_4_title">Dental &amp; Eye Care</h3>
+            <p data-i18n="health.access_4_text">Medical card holders get <strong>limited</strong> free dental and optical services: basic extractions, one eye test every 2 years, and limited glasses/contacts subsidy. Major dental work (crowns, bridges) is generally not covered. Ask your GP or local health centre for a referral.</p>
+          </div>
+        </div>
+      </div>
+      <div class="note">
+        <p class="note-title" data-i18n="health.interpreter_title">Requesting an Interpreter</p>
+        <p data-i18n="health.interpreter_text">You have the right to an interpreter for GP and hospital appointments. Ask when booking. Do not let anyone tell you to 'bring a friend' instead. Professional interpretation is your right and ensures accuracy.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="health.mh_title">Mental Health Matters</h2>
+      <p class="body lede-in" data-i18n="health.mh_lead">Living in the protection system can be stressful, lonely, and frightening. <strong>Asking for help is a sign of strength, not weakness.</strong> You have the right to mental health support, and it will not affect your asylum application.</p>
+      <div class="dir">
+        <div class="d-row">
+          <span class="dn" data-i18n="health.mh_gp">Talk to Your GP</span>
+          <span class="dd" data-i18n="health.mh_gp_desc">Your GP can refer you to counselling, psychiatry, or psychology services. This is free with your medical card.</span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="health.mh_hse">HSE YourMentalHealth Helpline</span>
+          <span class="dd" data-i18n="health.mh_hse_desc">Free national mental health helpline. Available 24/7. You can also text <strong>50808</strong>.</span>
+          <span class="dnum" data-i18n="health.mh_hse_num"><a href="tel:1800111888">1800 111 888</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="health.mh_spirasi">SPIRASI</span>
+          <span class="dd" data-i18n="health.mh_spirasi_desc">For survivors of torture and severe trauma. Therapy, rehabilitation, and medico-legal support.</span>
+          <span class="dnum" data-i18n="health.mh_spirasi_num"><a href="tel:018389664">01 838 9664</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="health.mh_dp">Counselling in DP</span>
+          <span class="dd" data-i18n="health.mh_dp_desc">Some centres have on-site counselling. Ask your centre manager or welfare officer what mental health services are available.</span>
+        </div>
+      </div>
+      <div class="note">
+        <p class="note-title" data-i18n="health.confidential_title">Your Health Information Is Confidential</p>
+        <p data-i18n="health.confidential_text">What you tell your doctor is <strong>private</strong>. Your GP cannot share your medical information with IPAS, the International Protection Office, or the Department of Justice without your consent — except in very rare situations where there is a serious risk to life. Seeking mental health support <strong>will not</strong> negatively affect your asylum claim.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="health.screening_title">Health Screening on Arrival</h2>
+      <p class="body lede-in" data-i18n="health.screening_lead">When you first arrive in Ireland, you are offered voluntary health screening at the reception centre. This checks for:</p>
+      <ul class="tick" data-i18n="health.screening_list">
+        <li>Tuberculosis (TB)</li>
+        <li>Hepatitis</li>
+        <li>HIV</li>
+        <li>Vaccination status</li>
+        <li>Other health needs</li>
+      </ul>
+      <p class="body" style="margin-top:1rem" data-i18n="health.screening_note">This screening is <strong>voluntary and confidential</strong>. The results <strong>do not affect your asylum application</strong>.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="health.daily_title">Taking Care of Your Health Day-to-Day</h2>
+      <div class="grid2">
+        <div class="cell">
+          <h3 data-i18n="health.daily_sleep">Sleep</h3>
+          <p data-i18n="health.daily_sleep_desc">Good sleep is essential. If noise, temperature, or room conditions are affecting your sleep, document it and raise it with your centre manager. Poor sleep affects mental and physical health.</p>
+        </div>
+        <div class="cell">
+          <h3 data-i18n="health.daily_food">Food &amp; Nutrition</h3>
+          <p data-i18n="health.daily_food_desc">If you have dietary needs (religious, medical, allergies), tell your centre manager. Centres are required to cater for dietary requirements.</p>
+        </div>
+        <div class="cell">
+          <h3 data-i18n="health.daily_move">Movement</h3>
+          <p data-i18n="health.daily_move_desc">Physical activity reduces stress. Walking, stretching, or any exercise you enjoy helps. Many centres have outdoor space — use it if you can.</p>
+        </div>
+        <div class="cell">
+          <h3 data-i18n="health.daily_connect">Connection</h3>
+          <p data-i18n="health.daily_connect_desc">Isolation harms health. Connect with others in your centre, local community groups, or support organisations. Clare Immigrant Support Centre runs outreach to Clare Lodge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="health.srh_title">Sexual &amp; Reproductive Health</h2>
+      <p class="body lede-in" data-i18n="health.srh_lead">You have the right to access sexual health services, maternity care, and family planning. These services are confidential and free with your medical card.</p>
+      <ul class="tick">
+        <li data-i18n="health.srh_maternity"><strong>Maternity care:</strong> Fully free for medical card holders. Tell your centre manager early if you are pregnant so they can plan appropriate accommodation.</li>
+        <li data-i18n="health.srh_contraception"><strong>Contraception:</strong> Free for women aged 17–35. Discuss with your GP.</li>
+        <li data-i18n="health.srh_sti"><strong>STI testing:</strong> Free and confidential at public sexual health clinics. Find your nearest clinic at <a href="https://www2.hse.ie/services/sexual-health/" target="_blank">hse.ie/services/sexual-health</a>.</li>
+      </ul>
+      <div class="note">
+        <p class="note-title" data-i18n="health.children_title">Children's Health</p>
+        <p data-i18n="health.children_text">Children in IPAS are entitled to the same health services as all children in Ireland: public health nurse visits, developmental checks, school health screenings, vaccinations, and specialist referrals. Ensure your children are registered with a GP.</p>
+      </div>
+      <div class="note">
+        <p class="note-title" data-i18n="health.addiction_title">Addiction Services</p>
+        <p data-i18n="health.addiction_text">If you or someone you know is struggling with alcohol or drugs, HSE addiction services are free and confidential. Your GP can refer you, or contact the HSE Drugs &amp; Alcohol Helpline: <a href="tel:1800459459">1800 459 459</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-head" id="services">
+    <div class="reading">
+      <p class="kicker"><em>02</em><span data-i18n="nav.services">Services</span></p>
+      <h2 class="art-title" data-i18n="services.page_title">Support Services</h2>
+      <p class="lede" data-i18n="services.page_subtitle">You don't have to face this alone. These organisations provide free, confidential support — regardless of your immigration status.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="services.crisis_title">Emergency &amp; Crisis</h2>
+      <div class="dir">
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_emergency">Emergency Services</span>
+          <span class="dd" data-i18n="services.svc_emergency_desc">Gardaí, Ambulance, Fire, Coast Guard. Free from any phone.</span>
+          <span class="dnum" data-i18n="services.svc_emergency_num"><a href="tel:112">112</a> or <a href="tel:999">999</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_samaritans">Samaritans</span>
+          <span class="dd" data-i18n="services.svc_samaritans_desc">24/7 confidential listening. Whatever you're going through, you can talk. Free call.</span>
+          <span class="dnum" data-i18n="services.svc_samaritans_num"><a href="tel:116123">116 123</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_pieta">Pieta House</span>
+          <span class="dd" data-i18n="services.svc_pieta_desc">Suicide and self-harm crisis helpline. 24/7. Free. Professional counsellors.</span>
+          <span class="dnum" data-i18n="services.svc_pieta_num"><a href="tel:1800247247">1800 247 247</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_text">Text About It</span>
+          <span class="dd" data-i18n="services.svc_text_desc">Free 24/7 text service for anyone in crisis. Anonymous.</span>
+          <span class="dnum" data-i18n="services.svc_text_num">Text <strong>HELLO</strong> to <strong>50808</strong></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="services.mental_title">Mental Health &amp; Psychiatry</h2>
+      <div class="dir">
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_hse_mh">HSE YourMentalHealth Helpline</span>
+          <span class="dd" data-i18n="services.svc_hse_mh_desc">National 24/7 mental health helpline. Your GP can also refer you to local mental health services.</span>
+          <span class="dnum" data-i18n="services.svc_hse_mh_num"><a href="tel:1800111888">1800 111 888</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_spirasi">SPIRASI</span>
+          <span class="dd" data-i18n="services.svc_spirasi_desc">Specialist support for survivors of torture and trauma. Medico-legal reports, therapy, rehabilitation. Dublin-based.</span>
+          <span class="dnum" data-i18n="services.svc_spirasi_num"><a href="tel:018389664">01 838 9664</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_jrs">Jesuit Refugee Service (JRS)</span>
+          <span class="dd" data-i18n="services.svc_jrs_desc">Psychosocial support, outreach to Direct Provision centres, language support, and integration programmes.</span>
+          <span class="dnum" data-i18n="services.svc_jrs_num"><a href="tel:018148644">01 814 8644</a></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="services.safety_title">Safety &amp; Victim Support</h2>
+      <div class="dir">
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_doras">Doras Migrant Victim Support</span>
+          <span class="dd" data-i18n="services.svc_doras_desc">Free, confidential support for migrants who have experienced crime — hate crime, domestic violence, trafficking, labour exploitation. Interpreter support available.</span>
+          <span class="dnum" data-i18n="services.svc_doras_num"><a href="tel:0830086391">083 008 6391</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_womensaid">Women's Aid</span>
+          <span class="dd" data-i18n="services.svc_womensaid_desc">24/7 helpline for women experiencing domestic abuse. Free and confidential.</span>
+          <span class="dnum" data-i18n="services.svc_womensaid_num"><a href="tel:1800341900">1800 341 900</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_rape">National Rape Crisis Helpline</span>
+          <span class="dd" data-i18n="services.svc_rape_desc">24/7 support for survivors of sexual violence. Free and confidential.</span>
+          <span class="dnum" data-i18n="services.svc_rape_num"><a href="tel:1800778888">1800 778 888</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_trafficking">Anti-Human Trafficking Unit</span>
+          <span class="dd" data-i18n="services.svc_trafficking_desc">Blue Blindfold campaign. Free, confidential, available in multiple languages.</span>
+          <span class="dnum" data-i18n="services.svc_trafficking_num"><a href="tel:017958280">01 795 8280</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_safe">Safe Ireland</span>
+          <span class="dd" data-i18n="services.svc_safe_desc">National network of domestic violence services. Find your local service.</span>
+          <span class="dnum" data-i18n="services.svc_safe_num"><a href="tel:015783001">01 578 3001</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_lgbt">LGBT Ireland</span>
+          <span class="dd" data-i18n="services.svc_lgbt_desc">Support and information for LGBTQ+ people in Ireland. Confidential helpline.</span>
+          <span class="dnum" data-i18n="services.svc_lgbt_num"><a href="tel:1800929539">1800 929 539</a></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="services.employment_title">Employment &amp; Job-Seeking</h2>
+      <div class="dir">
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_ncp">New Communities Partnership</span>
+          <span class="dd" data-i18n="services.svc_ncp_desc">Employment rights support, citizenship applications, social welfare help, education and accommodation support. National network.</span>
+          <span class="dnum" data-i18n="services.svc_ncp_num"><a href="tel:018727842">01 872 7842</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_mrci">Migrant Rights Centre Ireland (MRCI)</span>
+          <span class="dd" data-i18n="services.svc_mrci_desc">Employment rights, anti-exploitation, advocacy for undocumented workers, and integration support.</span>
+          <span class="dnum" data-i18n="services.svc_mrci_num"><a href="tel:018897570">01 889 7570</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_intreo">Intreo / MyWelfare</span>
+          <span class="dd" data-i18n="services.svc_intreo_desc">After 6 months in the protection process, you may apply for <strong>Labour Market Access Permission</strong>. Visit your local Intreo centre or <a href="https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/labour-market-access-permission/" target="_blank">irishimmigration.ie</a> for forms. Minimum wage: <strong>€13.50/hour</strong> (as of Jan 2025).</span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_cisc">Clare Immigrant Support Centre</span>
+          <span class="dd" data-i18n="services.svc_cisc_desc">Local Ennis-based support. Outreach to Clare Lodge and other centres. Advocacy, translation, accompanied visits.</span>
+          <span class="dnum" data-i18n="services.svc_cisc_num"><a href="tel:0656822026">065 682 2026</a></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="services.education_title">Education &amp; Integration</h2>
+      <div class="dir">
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_etb">Education &amp; Training Boards (ETBs)</span>
+          <span class="dd" data-i18n="services.svc_etb_desc">Free English language (ESOL) classes and adult education nationwide. Contact your local ETB.</span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_nasc">Nasc Ireland</span>
+          <span class="dd" data-i18n="services.svc_nasc_desc">Integration support, rights information, and advocacy for migrants in Ireland.</span>
+          <span class="dnum" data-i18n="services.svc_nasc_num"><a href="tel:0214273594">021 427 3594</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_irc">Irish Refugee Council</span>
+          <span class="dd" data-i18n="services.svc_irc_desc">Information, advocacy, and integration support. Information hub for protection applicants.</span>
+          <span class="dnum" data-i18n="services.svc_irc_num"><a href="tel:017645854">01 764 5854</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.svc_crosscare">Crosscare Migrant Services</span>
+          <span class="dd" data-i18n="services.svc_crosscare_desc">Major national support NGO. Information, advocacy, and practical support for migrants.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="services.local_box_title">Local Support in County Clare</h2>
+      <div class="dir">
+        <div class="d-row">
+          <span class="dn" data-i18n="services.local_cisc_name">Clare Immigrant Support Centre (CISC)</span>
+          <span class="dd">
+            <span data-i18n="services.local_cisc_addr">Unit 6, Clonroad Business Park, Ennis, Co. Clare</span><br>
+            <span data-i18n="services.local_cisc_phone">Phone: <a href="tel:0656822026">065 682 2026</a></span><br>
+            <span data-i18n="services.local_cisc_email">Email: <a href="mailto:ciscennis@gmail.com">ciscennis@gmail.com</a></span><br>
+            <span data-i18n="services.local_cisc_langs">Services available in <strong>Arabic, French, and English</strong>. Dedicated outreach to Clare Lodge and King Thomond DP Centre.</span>
+          </span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.local_ico_name">International Protection Office (IPO)</span>
+          <span class="dd">
+            <span data-i18n="services.local_ico_desc">Processes asylum applications. Not an advocacy body — this is the decision-maker.</span><br>
+            <span data-i18n="services.local_ico_phone"><a href="mailto:info@ipo.gov.ie">info@ipo.gov.ie</a></span> ·
+            <span data-i18n="services.local_ico_web"><a href="https://www.ipo.gov.ie" target="_blank">ipo.gov.ie</a></span>
+          </span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="services.local_ipat_name">International Protection Appeals Tribunal (IPAT)</span>
+          <span class="dd">
+            <span data-i18n="services.local_ipat_desc">If your application is refused, you appeal to IPAT within <strong>15 working days</strong>.</span><br>
+            <span data-i18n="services.local_ipat_web"><a href="https://www.protectionappeals.ie" target="_blank">protectionappeals.ie</a></span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-head" id="legal">
+    <div class="reading">
+      <p class="kicker"><em>04</em><span data-i18n="nav.legal">Legal Aid</span></p>
+      <h2 class="art-title" data-i18n="legal.page_title">Legal Aid &amp; Advocacy</h2>
+      <p class="lede" data-i18n="legal.page_subtitle">You have the right to legal help. Whether it's your asylum case, a complaint about your accommodation, or a problem at work, there are people who will help you for free.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="legal.free_title">Free Legal Help for Asylum Seekers</h2>
+      <p class="body lede-in" data-i18n="legal.free_lead">If you are in the international protection process, you are entitled to <strong>free legal aid</strong> through the <strong>Legal Aid Board</strong> and its <strong>Refugee Legal Service (RLS)</strong>.</p>
+      <div class="dir">
+        <div class="d-row">
+          <span class="dn" data-i18n="legal.rls">Refugee Legal Service (RLS)</span>
+          <span class="dd" data-i18n="legal.rls_desc">Free legal representation for international protection applicants. They can help with your asylum application, appeals, and judicial reviews.</span>
+          <span class="dnum" data-i18n="legal.rls_num"><a href="tel:0818615200">0818 615 200</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="legal.lab">Legal Aid Board</span>
+          <span class="dd" data-i18n="legal.lab_desc">General civil legal aid — family law, housing, employment, and more. Free if you cannot afford a private solicitor.</span>
+          <span class="dnum" data-i18n="legal.lab_num"><a href="tel:0818615200">0818 615 200</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="legal.flac">FLAC</span>
+          <span class="dd" data-i18n="legal.flac_desc">Free Legal Advice Centres. Drop-in clinics across Ireland for basic legal advice. Independent and confidential.</span>
+          <span class="dnum" data-i18n="legal.flac_num"><a href="tel:019061010">01 906 1010</a></span>
+        </div>
+        <div class="d-row">
+          <span class="dn" data-i18n="legal.irc_legal">Irish Refugee Council</span>
+          <span class="dd" data-i18n="legal.irc_legal_desc">Information, advocacy, and casework support. Not a law firm, but they know the system and can guide you.</span>
+          <span class="dnum" data-i18n="legal.irc_legal_num"><a href="tel:017645854">01 764 5854</a></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <div class="grid2" style="margin-top:0">
+        <div class="cell">
+          <h3 data-i18n="legal.ipo_title">The International Protection Office (IPO)</h3>
+          <p data-i18n="legal.ipo_desc">The IPO processes your asylum application. They are not your advocate — they are the decision-maker. You must cooperate with them, attend interviews, and respond to requests. If you move, tell them your new address immediately.</p>
+          <p style="margin-top:.7rem" data-i18n="legal.ipo_contact"><a href="mailto:info@ipo.gov.ie">info@ipo.gov.ie</a> · <a href="https://www.ipo.gov.ie" target="_blank">ipo.gov.ie</a></p>
+        </div>
+        <div class="cell">
+          <h3 data-i18n="legal.ipat_title">The International Protection Appeals Tribunal (IPAT)</h3>
+          <p data-i18n="legal.ipat_desc">If the IPO refuses your application, you can appeal to IPAT. You have <strong>15 working days</strong> from the date of the refusal letter to submit your appeal. <strong>Do not miss this deadline.</strong> Contact the Refugee Legal Service immediately if you receive a refusal.</p>
+          <p style="margin-top:.7rem" data-i18n="legal.ipat_contact"><a href="https://www.protectionappeals.ie" target="_blank">protectionappeals.ie</a></p>
+        </div>
+        <div class="cell">
+          <h3 data-i18n="legal.trc_title">Your Temporary Residence Certificate (TRC)</h3>
+          <p data-i18n="legal.trc_desc">Your TRC is the plastic card you received when you claimed asylum. It is your ID in Ireland. Keep it safe. You need it to: register with a GP, collect your PPS number, access services, and prove your status. If you lose it, contact IPAS immediately.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="legal.complain_title">How to Complain About Your Accommodation</h2>
+      <p class="body lede-in" data-i18n="legal.complain_intro">If you believe your centre is not meeting standards, treating you unfairly, or asking for unreasonable things (like a doctor's letter for a basic fan), you have a legal right to complain. Here is the proper process:</p>
+      <div class="steps">
+        <div class="step">
+          <span class="idx">01</span>
+          <div>
+            <h3 data-i18n="legal.comp_1_title">Centre Manager (Informal)</h3>
+            <p data-i18n="legal.comp_1_text">Speak to the manager first. Many issues can be resolved quickly. Keep a note of what was said and when.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="idx">02</span>
+          <div>
+            <h3 data-i18n="legal.comp_2_title">Centre Manager (Formal, Written)</h3>
+            <p data-i18n="legal.comp_2_text">If informal discussion fails, submit a written complaint. The manager must respond within <strong>14 days</strong>. Use the centre's complaint form if they have one. Keep a copy.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="idx">03</span>
+          <div>
+            <h3 data-i18n="legal.comp_3_title">IPAS Customer Service Team</h3>
+            <p data-i18n="legal.comp_3_text">Email <a href="mailto:ipasinbox@justice.ie">ipasinbox@justice.ie</a> with: your full name and TRC number; the name of your centre; a clear description of the problem; copies of any previous correspondence.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="idx">04</span>
+          <div>
+            <h3 data-i18n="legal.comp_4_title">Office of the Ombudsman</h3>
+            <p data-i18n="legal.comp_4_text">If IPAS does not resolve your complaint, escalate to the Ombudsman. You must do this within <strong>12 months</strong>.<br><br><strong>Online:</strong> <a href="https://www.ombudsman.ie/en/" target="_blank">ombudsman.ie</a><br><strong>Phone:</strong> <a href="tel:016395600">01 639 5600</a><br><strong>Post:</strong> Office of the Ombudsman, 6 Earlsfort Terrace, Dublin 2, D02 W773</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="idx">05</span>
+          <div>
+            <h3 data-i18n="legal.comp_5_title">Ombudsman for Children (OCO)</h3>
+            <p data-i18n="legal.comp_5_text">If your complaint involves a child, contact the OCO at <a href="https://www.oco.ie/" target="_blank">oco.ie</a> or <a href="tel:018656800">01 865 6800</a>.</p>
+          </div>
+        </div>
+      </div>
+      <h3 class="blk-sub" data-i18n="legal.comp_docs_title">What to Include in Your Complaint</h3>
+      <ul class="tick" data-i18n="legal.comp_docs_list">
+        <li>Your name, TRC number, and contact details</li>
+        <li>The name and address of your accommodation centre</li>
+        <li>What happened, when, and who was involved</li>
+        <li>What you want to happen now</li>
+        <li>Copies of any letters, emails, or photos that support your case</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="legal.solicitor_title">When to Contact a Solicitor</h2>
+      <ul class="tick" data-i18n="legal.solicitor_list">
+        <li>Your international protection application has been refused</li>
+        <li>You want to appeal to the International Protection Appeals Tribunal (IPAT)</li>
+        <li>You are facing deportation or removal</li>
+        <li>You want to apply for judicial review</li>
+        <li>You have been a victim of crime and need legal support</li>
+        <li>You have an employment or housing dispute</li>
+      </ul>
+      <div class="note accent">
+        <p class="note-title" data-i18n="legal.deadline_warning_title">Important: Don't Miss Deadlines</p>
+        <p data-i18n="legal.deadline_warning_text">Legal deadlines in the asylum system are strict. If you receive a refusal letter, you usually have <strong>15 working days</strong> to appeal. <strong>Do not wait.</strong> Contact the Refugee Legal Service or a solicitor immediately.</p>
+      </div>
+      <div class="note accent">
+        <p class="note-title" data-i18n="legal.bogus_title">Warning: Bogus Legal Advisors</p>
+        <p data-i18n="legal.bogus_text">Be careful of people who claim they can 'fast-track' your asylum claim or guarantee a positive result for money. Only registered solicitors and the Refugee Legal Service can legally represent you. If someone asks for cash to 'fix' your case, they are likely fraudulent. Report suspicious activity to the Gardaí or MRCI.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="legal.advocacy_title">Organisations That Can Advocate For You</h2>
+      <div class="register-wrap">
+        <table class="register">
+          <thead>
+            <tr>
+              <th data-i18n="legal.adv_org">Organisation</th>
+              <th data-i18n="legal.adv_what">What They Do</th>
+              <th data-i18n="legal.adv_contact">Contact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-i18n="legal.adv_irc">Irish Refugee Council</td>
+              <td data-i18n="legal.adv_irc_role">Advocacy, information, casework, integration support</td>
+              <td data-i18n="legal.adv_irc_contact">01 764 5854 / irishrefugeecouncil.ie</td>
+            </tr>
+            <tr>
+              <td data-i18n="legal.adv_nasc">Nasc Ireland</td>
+              <td data-i18n="legal.adv_nasc_role">Migrant rights, legal information, anti-racism work</td>
+              <td data-i18n="legal.adv_nasc_contact">021 427 3594 / nascireland.org</td>
+            </tr>
+            <tr>
+              <td data-i18n="legal.adv_mrci">MRCI</td>
+              <td data-i18n="legal.adv_mrci_role">Employment rights, anti-exploitation, undocumented workers</td>
+              <td data-i18n="legal.adv_mrci_contact">01 889 7570 / mrci.ie</td>
+            </tr>
+            <tr>
+              <td data-i18n="legal.adv_doras">Doras</td>
+              <td data-i18n="legal.adv_doras_role">Victim support, trafficking, integration (Midwest)</td>
+              <td data-i18n="legal.adv_doras_contact">083 008 6391 / doras.org</td>
+            </tr>
+            <tr>
+              <td data-i18n="legal.adv_cisc">Clare Immigrant Support Centre</td>
+              <td data-i18n="legal.adv_cisc_role">Local advocacy, translation, accompanied visits (Ennis)</td>
+              <td data-i18n="legal.adv_cisc_contact">065 682 2026 / ciscennis@gmail.com</td>
+            </tr>
+            <tr>
+              <td data-i18n="legal.adv_ihrec">IHREC</td>
+              <td data-i18n="legal.adv_ihrec_role">Human rights and equality oversight — can take strategic cases</td>
+              <td data-i18n="legal.adv_ihrec_contact">01 858 3001 / ihrec.ie</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="reading">
+      <h2 class="blk-title" data-i18n="legal.work_title">Know Your Rights at Work</h2>
+      <p class="body lede-in" data-i18n="legal.work_lead">If you have Labour Market Access Permission, you have the same employment rights as any other worker in Ireland:</p>
+      <ul class="tick" data-i18n="legal.work_list">
+        <li>Minimum wage (€13.50 per hour as of Jan 2025 — check <a href="https://www.gov.ie" target="_blank">gov.ie</a> for current rate)</li>
+        <li>Paid holidays</li>
+        <li>Safe working conditions</li>
+        <li>Protection from unfair dismissal (after qualifying period)</li>
+        <li>Right to join a trade union</li>
+      </ul>
+      <p class="body" style="margin-top:1.2rem" data-i18n="legal.work_exploit">If your employer is exploiting you — not paying you properly, making you work unsafe hours, or threatening you because of your immigration status — contact <strong>MRCI</strong> (01 889 7570) or the <strong>Workplace Relations Commission (WRC)</strong> (059 917 8990) <strong>before</strong> confronting your employer. If you are undocumented, seek advice first.</p>
+      <div class="note">
+        <p class="note-title" data-i18n="legal.work_tip_title">Remember</p>
+        <p data-i18n="legal.work_tip_text">If your employer threatens to report your immigration status because you asserted your employment rights, this may be penalisation and you can report it to MRCI or the WRC. However, if you are undocumented, <strong>seek advice before making a complaint</strong> to understand your risks.</p>
       </div>
     </div>
   </section>
@@ -122,10 +883,10 @@
       </div></div>
       <div>
         <h4 data-i18n="footer.quicklinks">Quick Links</h4>
-        <p><a href="rights.html" data-i18n="nav.rights">Your Rights</a></p>
-        <p><a href="services.html" data-i18n="nav.services">Support Services</a></p>
-        <p><a href="health.html" data-i18n="nav.health">Healthcare</a></p>
-        <p><a href="legal.html" data-i18n="nav.legal">Legal Aid</a></p>
+        <p><a href="#rights" data-i18n="nav.rights">Your Rights</a></p>
+        <p><a href="#services" data-i18n="nav.services">Support Services</a></p>
+        <p><a href="#health" data-i18n="nav.health">Healthcare</a></p>
+        <p><a href="#legal" data-i18n="nav.legal">Legal Aid</a></p>
       </div>
       <div>
         <h4 data-i18n="footer.emergency_title">Emergency</h4>
